@@ -51,6 +51,10 @@ def getChannelEPG(fhandle, channelID):
             name = epgdata[channelID[n]]['channelName']
             program = epgdata[channelID[n]]['program']
             for detail in program:
+                for checklegal in detail:
+                    #check for grammar
+                    checklegal=checklegal.replace('<','《')
+                    checklegal=checklegal.replace('>','》')
                 # write programe
                 st = datetime.fromtimestamp(detail['st']).strftime('%Y%m%d%H%M') + '00'
                 et = datetime.fromtimestamp(detail['et']).strftime('%Y%m%d%H%M') + '00'
