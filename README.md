@@ -1,6 +1,6 @@
 
 ## 简介
-
+fork from https://github.com/xiaoluoxxx/iptv-epg
 PTV直播源码，适用于电视直播。
 
 ## 如何使用
