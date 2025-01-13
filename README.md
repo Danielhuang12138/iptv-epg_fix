@@ -17,18 +17,12 @@ PTV直播源码，适用于电视直播。
 
 
 
-### Epg file (三选一)
+### Epg file
 
-- **老张的EPG Since2019**
-
-  `http://epg.51zmt.top:8000/e.xml`
 
 - **Github**
 
-  `https://ghproxy.net/https://raw.githubusercontent.com/xiaoluoxxx/iptv-one/main/epg.xml`
-  
-- **某大神**
-  
-  ` https://epg.112114.xyz/pp.xml`
+  `https://raw.githubusercontent.com/Danielhuang12138/iptv-epg_fix/main/epg.xml`
+
 
   ` `
